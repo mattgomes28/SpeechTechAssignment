@@ -9,12 +9,12 @@ The error primarily occur when sequences of prints are being interrupted by the 
 
 The way I fixed this error was to explicitly enable Unicode encoding-decoding in Windows (with the Windows Unicode library), and prevent multiple lines to be printed out in a fast manner by using carriage returns to update progres text etc. when possible. To run the code in this project simply install the following:
 
-Using Pip:
-`pip install colorama`
+Using Pip:  
+`pip install colorama`  
 `pip intall win_unicode_console`
 
-Using Conda:
-`conda install colorama`
+Using Conda:  
+`conda install colorama`  
 `conda install win_unicode_console`
 
 Let me know if you guys have any problems with these scripts, I will be happy to help.
