@@ -1,5 +1,5 @@
 # SpeechTechAssignment - The Problem
-Git repo for the Speech Technology Windows fix. For this fix it was necessary to install two new modules Colorama and Windows Unicode Console. Since the November update, the stdout.write function in Python has not been working properly dues to not being able to handle the changes in the unicode length change in Windows.
+Git repo for the Speech Technology Windows fix. For this fix it was necessary to install two new modules Colorama and Windows Unicode Console. Since the November update, the stdout.write function in Python has not been working properly due to not being able to handle the changes in the unicode length change in Windows.
 
 [More information can be found in this link](https://github.com/Microsoft/vscode/issues/39149)
 
